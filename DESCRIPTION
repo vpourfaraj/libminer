@@ -1,5 +1,5 @@
 Package: libminer
-Title: Explore your R Libraries
+Title: Explore your R Libraries.
 Version: 0.0.0.9000
 Authors@R: 
     person("Vahab", "Pourfaraj", , "Vahab.Pourfaraj@dfo-mpo.gc.ca", role = c("aut", "cre"),
