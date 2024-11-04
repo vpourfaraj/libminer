@@ -4,8 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Vahab", "Pourfaraj", , "Vahab.Pourfaraj@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Provides functions for learning abour your R libraries, and the packages you have
-installed.
+Description: Provides functions for learning abour your R libraries, and the packages you have installed.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
