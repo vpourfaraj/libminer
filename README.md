@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/vpourfaraj/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/vpourfaraj/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to provide an overview of your R library setup.
@@ -28,9 +30,14 @@ use the lib_summary() function:
 ``` r
 library(libminer)
 lib_summary()
-#>                                                        Library n_packages
-#> 1 C:/Users/POURFARAJV/AppData/Local/Programs/R/R-4.3.2/library         30
-#> 2          C:/Users/POURFARAJV/AppData/Local/R/win-library/4.3        256
+#>                                                                        Library
+#> 1                 C:/Users/POURFARAJV/AppData/Local/Programs/R/R-4.3.2/library
+#> 2                          C:/Users/POURFARAJV/AppData/Local/R/win-library/4.3
+#> 3 C:/Users/POURFARAJV/AppData/Local/Temp/1/RtmpI7LHaD/temp_libpath30183c9e59c8
+#>   n_packages
+#> 1         30
+#> 2        256
+#> 3          1
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?

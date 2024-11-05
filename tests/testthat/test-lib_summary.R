@@ -1,5 +1,5 @@
-test_that("lib_summary returns expected results", {
-  result<- lib_summary()
+test_that("lib_summary returns expected results with defaults", {
+  result <- lib_summary()
 
   expect_s3_class(result, "data.frame")
   expect_equal(ncol(result), 2)
@@ -19,6 +19,8 @@ test_that("sizes works", {
   expect_type(result$Library, "character")
   expect_type(result$lib_size, "double")
 })
+
+
 test_that("lib_summary fails appropriately", {
   expect_error(lib_summary("hello"), "must be logical")
 })
